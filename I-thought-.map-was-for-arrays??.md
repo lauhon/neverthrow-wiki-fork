@@ -12,9 +12,12 @@ So, what's an example of a Functor? ...... JS Array's are Functors! They are con
 [1, 2, 3].map(num => `number is: ${num}`)
 ```
 
-// map takes a Array<number> and turns it into a Array<string>
-// or more formally: 
-//   map<T, U>(arr: Array<T>, fn: (val: T) => U): Array<U>
+`map` takes a Array<number> and turns it into a Array<string> with a callback function as an argument. Or more formally:
+
+```typescript
+Array<T>.map<U>(fn: (val: T) => U): Array<U>
+```
+
 
 
 `todo` ..finish this post
