@@ -9,11 +9,12 @@ What's a Functor? A Functor is a "container" that can be mapped over.
 So, what's an example of a Functor? ...... JS Array's are Functors! They are containers that can be mapped over. 
 
 ```
+[1, 2, 3].map(num => `number is: ${num}`)
+```
+
 // map takes a Array<number> and turns it into a Array<string>
 // or more formally: 
 //   map<T, U>(arr: Array<T>, fn: (val: T) => U): Array<U>
-//
-[1, 2, 3].map(num => `number is: ${num}`)
-```
+
 
 `todo` ..finish this post
