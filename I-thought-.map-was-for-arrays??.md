@@ -1,3 +1,7 @@
+*This post provides context on why `Result`s have a `map` method*.
+
+----
+
 Yes, you're right. If you were to ask a JS developer what `.map` does, they'd probably give you their own definition of the [`Array.prototype.map` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map).
 
 But what if I told you that `.map` is an implementation of a more abstract idea?
@@ -18,6 +22,8 @@ So, what's an example of a Functor? ...... JS Array's are Functors! They are con
 Array<T>.map<U>(fn: (val: T) => U): Array<U>
 ```
 
+So what else is a container that you use every day that **could** be a Functor? JS `Map`s, plain objeccts, `Set`s, and basically anything that is a "container" for data.
 
+Suppose I had a `Map<string, number>`. Then I could map over the contents of the `Map` (the `number`) just like I would with an array - the `string` keys would be untouched.
 
-`todo` ..finish this post
+So, with all that out of the way, I think we can agree that a `Result` is a container for some data. And `.map` for `Result`s is conceptually the exact same thing as `Array.prototype.map`.
