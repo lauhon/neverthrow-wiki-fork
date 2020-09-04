@@ -11,7 +11,17 @@ The JavaScript community has agreed on the convention of throwing exceptions. As
 
 ### Synchronous Example:
 
-`todo`
+```typescript
+import { ok, err } from 'neverthrow'
+
+const safeJsonParse = (jsonString: string): Result<JSONType, ParseError> => {
+  try {
+    return ok(JSON.parse(jsonString))
+  } catch (e: unknown) {
+    return err(intoParseError(e))
+  }
+}
+```
 
 #### Async Example:
 
