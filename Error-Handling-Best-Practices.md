@@ -12,6 +12,8 @@ This document outlines patterns and best practices for working in a system that 
 
 talk about panics in Rust.
 
+When is it ok to `throw` an exception?
+
 
 ## Wrap 3rd party code to localize exceptions
 
