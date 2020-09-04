@@ -1,4 +1,4 @@
-This document outlines patterns and best practices for working in a system that doesn't ever throw exceptions.
+This document outlines patterns and best practices for working in a system that doesn't rely on throwing exceptions as the primary mechanism for signalling something went wrong.
 
 #### Table of Contents:
 
