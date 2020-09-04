@@ -1,5 +1,13 @@
 This document outlines patterns and best practices for working in a system that doesn't ever throw exceptions.
 
+#### Table of Contents:
+
+- Distinguish between "Expected Errors" and "Unexpected, or Irrecoverable Errors"
+- Wrap 3rd party code to localize exceptions
+- Thinking in Types and Pipelines
+
+---
+
 ## Distinguish between "Expected Errors" and "Unexpected, or Irrecoverable Errors"
 
 talk about panics in Rust.
