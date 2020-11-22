@@ -8,7 +8,7 @@ Do you have feedback or suggestions? Open an issue!
 
 - Never worked with a `Result` or `Either` type before? Start here: [Introduction: Type Safe Errors in JS & TypeScript](https://github.com/supermacro/neverthrow/wiki/Introduction:-Type-Safe-Errors-in-JS-&-TypeScript).
 
-- Trying to figure out who to get the value out of a darn `Result` without fuss? Read [Accessing The Value Inside A Result](https://github.com/supermacro/neverthrow/wiki/Accessing-The-Value-Inside-A-Result)
+- Trying to figure out how to get the value out of a darn `Result` without fuss? Read "[Accessing The Value Inside A Result](https://github.com/supermacro/neverthrow/wiki/Accessing-The-Value-Inside-A-Result)"
 
 - Want to learn about some advanced functional programming ideas? Read [I thought .map was for arrays??](https://github.com/supermacro/neverthrow/wiki/I-thought-.map-was-for-arrays%3F%3F)
 
