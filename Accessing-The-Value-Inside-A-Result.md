@@ -12,13 +12,17 @@ const example2 = err('abc')
 
 if (example1.isOk()) {
   // you now have access to example1.value
+  doSomethingUseful(example1.value)
 } else {
   // you now have access to example1.error
+  handleError(example1.error)
 }
 
 if (example2.isErr()) {
   // you now have access to example2.error
+  handleError(example2.error)
 } else {
   // you now have access to example2.value
+  doSomethingUseful(example2.value)
 }
 ```
