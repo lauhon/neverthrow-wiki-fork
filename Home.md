@@ -8,7 +8,7 @@ Do you have feedback or suggestions? Open an issue!
 
 - Never worked with a `Result` or `Either` type before? Start here: 
   - [Introduction: Type Safe Errors in JS & TypeScript](https://github.com/supermacro/neverthrow/wiki/Introduction:-Type-Safe-Errors-in-JS-&-TypeScript) if you want to read
-  - Or, a video introduction [Railway oriented programming: Error handling in functional languages by Scott Wlaschin](https://github.com/supermacro/neverthrow/wiki/Railway-Oriented-Programming-(1hour-video))
+  - Or, a video introduction, "[Railway oriented programming: Error handling in functional languages by Scott Wlaschin](https://github.com/supermacro/neverthrow/wiki/Railway-Oriented-Programming-(1hour-video))"
 
 - Trying to figure out how to get the value out of a darn `Result` without fuss? Read "[Accessing The Value Inside A Result](https://github.com/supermacro/neverthrow/wiki/Accessing-The-Value-Inside-A-Result)"
 
