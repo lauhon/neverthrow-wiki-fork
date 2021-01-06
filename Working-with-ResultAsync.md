@@ -8,3 +8,4 @@ References:
 
 - https://github.com/supermacro/neverthrow/issues/179
 - https://github.com/supermacro/neverthrow/issues/191#issuecomment-749059246
+- https://github.com/supermacro/neverthrow/issues/222
