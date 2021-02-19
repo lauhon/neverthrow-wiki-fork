@@ -30,9 +30,9 @@ Then the Java team got the bright idea to have checked exceptions, which at firs
 
 Then we got multi-return error objects, maybes, panics, and all sorts of bright ideas that fail to understand the basic premises of errors:
 
-Any error system that relies upon developer discipline will fail because errors will be missed.
+  Any error system that relies upon developer discipline will fail because errors will be missed.
 
-Any error system that handles all errors the same way will fail because there are some errors we can ignore, and some errors we must not ignore. And what's ignorable/retriable to one project is not ignorable/retriable to another.
+  Any error system that handles all errors the same way will fail because there are some errors we can ignore, and some errors we must not ignore. And what's ignorable/retriable to one project is not ignorable/retriable to another.
 
 Attempting to get the complete set of error types that any given call may raise is a fool's errand because of the halting problem it eventually invokes. Forcing people to provide such a list results in the Java problem for the same reason.
 
