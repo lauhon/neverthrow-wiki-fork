@@ -16,9 +16,6 @@ Do you have feedback or suggestions? Open an issue!
 - Want to learn about some advanced functional programming ideas? Read [I thought .map was for arrays??](https://github.com/supermacro/neverthrow/wiki/I-thought-.map-was-for-arrays%3F%3F)
 
 
----
-
-
 
 ---
 
