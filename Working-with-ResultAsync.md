@@ -1,5 +1,5 @@
-Result Async can be used to work with Asynchronous Results in an Error safe way.
-Similarly to `Result<T,E>`, which contains the Result of a synchronous operation that may have failed, you can handle Promises with `ResultAsync<T,E>`.
+Result Async can be used to work with Asynchronous Results in a typesafe way.
+Similarly to `Result<T,E>`, which contains the Result of a synchronous operation that may have failed, you can represent the result of async operations with `ResultAsync<T,E>`.
 
 ## Wrapping Promises with fromPromise
 
@@ -63,6 +63,6 @@ const neverthrower = () => {
 ```
 
 Notice that typically you would not read the result of ResultAsync immediately after wrapping it, as it does not much other than bloating up your function a bit more.
-The gain of using this paradigm really comes to the surface when you start to chaining different `Result` and `ResultAsnyc` together with the `.map` and `.andThen` functions. This enables you to unwrap (with `match`, or `map` & `mapErr`) the Results at a centralized point to outsource the responsibility to react to Errors and Successes.
+The benefit of using this paradigm really comes to the surface when you start to chaining different `Result` and `ResultAsnyc` together with the `.map` and `.andThen` functions. This enables you to unwrap (with `match`, or `map` & `mapErr`) the Results at a centralized point to outsource the responsibility to react to Errors and Successes.
 
 To learn more about that check out how to [Intertwine Side Effects Into Neverthrow](./Intertwining-Side-Effects-Into-Neverthrow.md) and the [example-project](https://github.com/parlez-vous/server)
